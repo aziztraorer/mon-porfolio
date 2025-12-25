@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/css/output.css">
+    <link rel="shortcut icon" href="./src/assets/img/logo.jpeg" type="image/x-icon">
+    <title>portfolio</title>
+</head>
+<body class="overflow-x-hidden bg-white">
+  <div class="absolute w-[20px] h-[20px] rounded-2xl fill-transparent transition-opacity"></div>
+    <header  class="md:h-30 bg-linear-to-r from-purple-800 to-cyan-500 flex flex-col justify-between p-10 items-center  headeranimation flex-wrap" >
+        <h1 class="text-4xl font-extrabold">Aziz<span class="text-white ">Dev</span> </h1><br>
+        <img src="/src/assets/img/navbarre.png" alt="" class="w-[40px] h-[40px] md:hidden hover:cursor-pointer relative right-15 " id="menu-btn">
+
+        <ul class=" flex flex-col gap-1 justify-between text-[20px] text-white hover:cursor-pointer md:flex-row md:gap-10 md:flex  relative hidden " id="menu">
+            <a href="#projets" class="hover:text-red-500"><li>PROJET</li></a>
+            <a href="#apropos" class="hover:text-red-500"><li>APROPOS</li></a>
+            <a href="#contact" class="hover:text-red-500"><li>CONTACT</li></a>
+        </ul>
+
+    </header>
+
+    <section class="mb-20 md:mb-0 md:w-[80%] md:m-auto flex justify-center md:justify-between items-center p-5 h-[70vh] flex-wrap gap-10 mb-2 ">
+        <div class="w-[100%] text-center flex flex-col items-center gap-5 animate-apropos md:w-[40%]">
+            <h3>DEVELOPPEUR WEB FRONT-END DISPONIBLE POUR METTRE VOTRE
+                ENTREPRISE SUR LE NET AFIN DE FAIS CONNAITRE VOTRE ENTREPRISE PAR TOUS 
+            </h3>
+            <a href="tel:+2250544735009" ><button class="rounded-[30px] bg-linear-to-r from-purple-800 to-cyan-500 w-[200px] h-[40px] text-white cursor-pointer">CONTACTEZ-MOI</button></a>
+        </div>
+        <div class=" rounded-[50%] w-[250px] h-[250px] animephotoapro cursor-pointer">
+        <div class=" w-full h-full rounded-[50%] border-10 border-r-purple-800 border-l-cyan-500 border-b-purple-500 border-t-cyan-300 static z-10 rotation absolute hidden md:block"></div>
+        <img src="/src/assets/img/aziz.png" alt="AzizDev" srcset="" class="rounded-[50%] w-[93%] h-[90%] bg-cover bg-size-center relative  left-2 md:top-[-237px] border-2 border-r-purple-800 border-l-cyan-500 border-b-purple-500 border-t-cyan-300 md:border-0"> 
+        
+        </div>
+    </section>
+
+    <section class="mb-12 flex flex-col items-center  p-5 gap-10">
+        <h2 class="text-[30px] font-bold" id="projets">PROJETS</h2>
+
+        <div class="contenuprojet mt-2 flex gap-2 justify-center flex-wrap">
+
+            <div class="flex flex-col justify-center items-center gap-4 w-100px border-2 border-red-500 hover:cursor-pointer animate-bounce-slow rounded-2xl ">
+                <img src="/src/assets/img/glacier.png" class="w-full h-[100px] rounded-2xl" alt="" srcset="" >
+                <p class="text-[20px]">glacier</p>
+                <div class="flex items-center justify-center mb-2">
+                    <img src="/src/assets/img/icons8-html-50.png" alt="" srcset="" class="w-[40px]">
+                    <img src="/src/assets/img/icons8-css-50.png" alt="" srcset="" class="w-[40px]">
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center gap-4 w-100px border-2 border-red-500 animate-bounce-slow rounded-2xl">
+                <img src="/src/assets/img/glacier.png" class="w-full h-[100px] rounded-2xl" alt="" srcset="" >
+                <p class="text-[20px]">glacier</p>
+                <div class="flex items-center justify-center mb-2">
+                    <img src="/src/assets/img/icons8-html-50.png" alt="" srcset="" class="w-[40px]">
+                    <img src="/src/assets/img/icons8-css-50.png" alt="" srcset="" class="w-[40px]">
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-center items-center gap-4 w-100px border-2 border-red-500 animate-bounce-slow rounded-2xl">
+                <img src="/src/assets/img/glacier.png" class="w-full h-[100px] rounded-2xl" alt="" srcset="" >
+                <p class="text-[20px]">glacier</p>
+                <div class="flex items-center justify-center mb-2">
+                    <img src="/src/assets/img/icons8-html-50.png" alt="" srcset="" class="w-[40px]">
+                    <img src="/src/assets/img/icons8-css-50.png" alt="" srcset="" class="w-[40px]">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class=" flex flex-col items-center w-full overflow-hidden  gap-10 m-auto flex-wrap  p-5">
+        <h2 class="text-[30px] font-bold" id="apropos">APROPOS</h2>
+        <div class="w-[100%] flex md:justify-between items-center flex-col md:flex-row flex-wrap gap-1 ">
+
+            <div class="md:w-[50%] flex flex-col justify-center items-center text-center text-clip animate-apropos">
+                <h3 class="text-[17px] md:text-2xl font-bold">Qui suis-je ?</h3>
+                <p class="md:w-[500px] w-[100%] text-justify text-[17px] md:text-[17px] ">Je m'appelle Aziz , je suis developpeur web front-end . Je suis passionné par le développement web et j'aime créer des sites web attrayants et fonctionnels. J'ai acquis des compétences en HTML, CSS et JavaScript, et je suis constamment à la recherche de nouvelles technologies pour améliorer mes compétences. Mon objectif est de contribuer à des projets innovants et de fournir des solutions web de qualité.</p>
+            </div>
+
+            <div class="flex justify-center items-center md:w-[40%] animephotoapro flex-col flex-wrap">
+                <img src="/src/assets/img/aziz.png" alt="AzizDev" srcset="" class="rounded-[50%] border-3 border-r-purple-800 border-l-cyan-500 border-b-purple-500 border-t-cyan-300 w-[200px] h-[200px] mt-10">
+                <button class="rounded-[30px] bg-linear-to-r from-purple-800 to-cyan-500 w-[200px] h-[40px] text-white cursor-pointer mt-1"><a href="/src/assets/développeur front-end (1).pdf" download="aziz traore cv" >Telecharger mon cv</a></button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="flex text-center flex-col h-[100vh] md:gap-10 w[90%] md:flex-wrap  p-5">
+        <h2 class="md:text-4xl text-[30px] font-bold" id="contact">CONTACT</h2>
+        <div class="w-[90%] flex flex-col md:flex-row justify-between items-center gap-10">
+
+            <div class="w-[40%]" >
+                <form action="" class="flex flex-col justify-center items-center gap-4 animate-contact">
+                    <h3 class="mt-4">Contactez-moi</h3>
+                    <input type="text" placeholder="Votre nom" class="border-2 border-gray-300 rounded-md p-2 md:w-[300px] mb-4 text-center">
+                    <input type="text" placeholder="Votre prenonom" class="border-2 border-gray-300 rounded-md p-2 md:w-[300px] mb-4 text-center">
+                    <input type="text" placeholder="Votre email" class="border-2 border-gray-300 rounded-md p-2 md:w-[300px] mb-4 text-center">
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Votre message" class="border-2 border-gray-300 rounded-md p-2 md:w-[300px] mb-4 text-center outline-none resize-none "></textarea>
+                    <button type="submit" class="rounded-[30px] bg-linear-to-r from-purple-800 to-cyan-500 w-[200px] h-[40px] text-white">ENVOYER</button>
+                </form>
+            </div>
+
+            <div class="md:w-[40%] w-[100%] flex md:flex-col flex-row justify-center items-center  ">
+                <img src="/src/assets/img/img.png" alt="" srcset="" class=" md:h-[300px] animate-contact w-[40%]">
+                <div class="flex flex-col justify-center items-center md:w-[70%] w-[20%] ">
+                    <h3 class="text-center mt-4 hidden md:block">Vous pouvez aussi me contacter via les reseaux sociaux</h3>
+                    <div class="md:flex justify-center items-center gap-6 animate-contact">
+                        <a href="https://www.linkedin.com/in/traore-aziz-a043b0295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="/src/assets/img/icons8-linkedin-50.png" alt="" srcset=""></a>
+                        <a href="https://wa.me/+2250544735009"><img src="/src/assets/img/icons8-whatsapp-50.png" alt="" srcset=""></a>
+                        <a href="mailto:aziztraore55801@gmail.com"><img src="/src/assets/img/gmail_2991143.png" class="w-[40px]" alt="" srcset=""></a>
+                        <a href="tel:+2250544735009"><img src="/src/assets/img/tel.png" class="w-[40px]" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="lg:mt-12 w-full sm:mt-0 md:mt-0 2xl:mt-0  ">
+    <div class="bg-linear-to-r from-purple-800 to-cyan-500 h-[100px] flex justify-center items-center">
+        <h3 class="text-white">© 2025 AzizDev. All rights reserved.</h3>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
